@@ -7,17 +7,24 @@
 ## Featured Projects
  
 ### [mlb-pitch-framing-analysis](https://github.com/jameschen108/mlb-pitch-framing-analysis)
-How much value does a catcher actually add by framing borderline pitches?
-Built a called-strike probability model on pitch-level Statcast data ‹N pitches, seasons ›,
-then measured each catcher's residual contribution against it.
+1.06M called pitches, 2021–2023. A GAM over pitch location supplies the counterfactual
+("what would an average catcher get called here?"), and the residual is framing. The
+unadjusted leaderboard tracks Baseball Savant at r = 0.99 — but once catcher, umpire and
+pitcher effects have to compete for the same residual, umpire-to-umpire variation
+(τ = 0.233) comes out larger than catcher variation (τ = 0.192). Split-half reliability
+0.82, year-over-year 0.60.
  
-`Python` · `pandas` · `scikit-learn` · `pybaseball`
+`Python` · `rossed random effects` · `ogistic GAM` · `Statcast`
  
 ---
  
 ### [food-calorie-vlm](https://github.com/jameschen108/food-calorie-vlm)
-LoRA fine-tuning of Qwen2-VL for calorie and nutrient estimation from food photographs.
-Compared the fine-tuned model against the base model on ‹dataset, size›.
+Fine-tuning improved recognition unambiguously (item F1 0.358 → 0.607, p < 0.0001) and
+±20% calorie accuracy from 8.8% to 40.4%. Mean absolute error did **not** significantly
+improve — its confidence interval crosses zero, because a handful of internally
+inconsistent references dominate the mean. Freezing the vision tower still recovers 82% of
+the F1 gain, which places the improvement on the language side rather than in visual
+features. Runs end to end on a free Colab T4; the evaluation harness is CPU-only and tested.
 
 `PyTorch` · `Qwen2-VL` · `LoRA` · `Hugging Face`
  
