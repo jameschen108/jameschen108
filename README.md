@@ -45,6 +45,14 @@ frequency-feature LightGBM result, kept apart from that comparison.
 `LightGBM` · `scikit-learn` · `stratified k-fold`
  
 ---
+
+### [garmin-stress-pca]([https://github.com/jameschen108/garmin-stress-pca])
+ 
+Course project: reproducible PCA and temporal holdout analysis of personal Garmin wearable 
+data and daily stress patterns.
+
+ 
+---
  
 ## Technical Skills
  
