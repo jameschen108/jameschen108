@@ -17,17 +17,6 @@ counterfactual, and a crossed random-effects model splits the residual three way
  
 ---
  
-### [food-calorie-vlm](https://github.com/jameschen108/food-calorie-vlm)
- 
-QLoRA fine-tuning of Qwen2-VL-7B to itemize the calories in a food photo, with an
-evaluation harness that scores it against a zero-shot baseline on the same held-out split,
-plus a frozen-vision ablation to locate where the improvement actually comes from.
-Runs end to end on a free Colab T4.
- 
-`PyTorch` · `Qwen2-VL` · `QLoRA` · `Unsloth / TRL`
- 
----
- 
 ### [tw-stock-lstm-evaluation](https://github.com/jameschen108/tw-stock-lstm-evaluation)
  
 Trains an LSTM to predict next-day Taiwan stock prices, then asks whether the predictions
@@ -36,6 +25,17 @@ feature ablation, and a long/flat backtest with Taiwan retail trading costs.
  
 `TensorFlow/Keras` · `walk-forward evaluation` · `FastAPI` · `Docker`
  
+---
+ 
+### [food-calorie-vlm](https://github.com/jameschen108/food-calorie-vlm)
+ 
+QLoRA fine-tuning of Qwen2-VL-7B to itemize the calories in a food photo, with an
+evaluation harness that scores it against a zero-shot baseline on the same held-out split,
+plus a frozen-vision ablation to locate where the improvement actually comes from.
+Runs end to end on a free Colab T4.
+ 
+`PyTorch` · `Qwen2-VL` · `QLoRA` · `Unsloth / TRL`
+
 ---
  
 ### [santander-transaction-prediction](https://github.com/jameschen108/santander-transaction-prediction)
