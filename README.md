@@ -46,7 +46,7 @@ frequency-feature LightGBM result, kept apart from that comparison.
  
 ---
 
-### [garmin-stress-pca]([https://github.com/jameschen108/garmin-stress-pca])
+### [garmin-stress-pca](https://github.com/jameschen108/garmin-stress-pca)
  
 Course project: reproducible PCA and temporal holdout analysis of personal Garmin wearable 
 data and daily stress patterns.
