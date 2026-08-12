@@ -29,10 +29,8 @@ feature ablation, and a long/flat backtest with Taiwan retail trading costs.
  
 ### [food-calorie-vlm](https://github.com/jameschen108/food-calorie-vlm)
  
-QLoRA fine-tuning of Qwen2-VL-7B to itemize the calories in a food photo, with an
-evaluation harness that scores it against a zero-shot baseline on the same held-out split,
-plus a frozen-vision ablation to locate where the improvement actually comes from.
-Runs end to end on a free Colab T4.
+A course project using QLoRA to fine-tune Qwen2-VL-7B for food recognition and calorie 
+estimation from images. Includes reproducible training, evaluation, and example predictions.
  
 `PyTorch` · `Qwen2-VL` · `QLoRA` · `Unsloth / TRL`
 
