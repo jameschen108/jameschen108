@@ -49,8 +49,10 @@ frequency-feature LightGBM result, kept apart from that comparison.
 ### [garmin-stress-pca](https://github.com/jameschen108/garmin-stress-pca)
  
 Course project: reproducible PCA and temporal holdout analysis of personal Garmin wearable 
-data and daily stress patterns.
+data and daily stress patterns. PCA + ANOVA on 63 training days of Garmin HR / sleep / Body Battery, 
+then a later-month holdout. The stress association does not replicate.
 
+`Python` · `PCA` · `temporal holdout`
  
 ---
  
