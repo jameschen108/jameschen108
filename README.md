@@ -62,8 +62,8 @@ then a later-month holdout. The stress association does not replicate.
 |---|---|
 | **Languages** | Python, SQL, R |
 | **Statistical Methods** | regression, time-series analysis, hypothesis testing, cross-validation design |
-| **ML & Deep Learning** | XGBoost, LSTM, SHAP, transfer learning, LoRA fine-tuning |
-| **Data & Tools** | pandas, NumPy, TensorFlow/Keras, PyTorch, LangChain, Git |
+| **ML & Deep Learning** | LSTM, LightGBM, transfer learning, LoRA fine-tuning |
+| **Data & Tools** | pandas, NumPy, TensorFlow/Keras, PyTorch, Git |
  
 ---
  
